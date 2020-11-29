@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "946316064260",
+    "firebase_url": "https://beanstalk-a2ac4.firebaseio.com",
+    "project_id": "beanstalk-a2ac4",
+    "storage_bucket": "beanstalk-a2ac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946316064260:android:21bbe4ac664215434ca751",
+        "android_client_info": {
+          "package_name": "com.example.beanstalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946316064260-0d5v12q9meblula5c17vqtv1k2h9cjp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMFulB60JVRuNbwgufvPYw-xs_n_9Wp_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946316064260-0d5v12q9meblula5c17vqtv1k2h9cjp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

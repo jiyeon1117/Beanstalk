@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/text_loginKR"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="110dp"
+        android:layout_gravity="right"
+        tools:ignore="RtlHardcoded"
+        tools:srcCompat="@drawable/mang" />
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="#ecf0f1"
+        android:hint="@string/text_email"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#4E4E4E" />
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="#ecf0f1"
+        android:hint="@string/text_password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#4E4E4E" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="#9acc99"
+        android:text="@string/text_loginKR"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_SignUp_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:stateListAnimator="@null"
+        android:text="@string/text_SignUpKR" />
+
+</LinearLayout>

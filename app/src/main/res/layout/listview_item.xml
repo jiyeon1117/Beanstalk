@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자격증이름"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/write_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수수료"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/practical_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수수료"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/btn_star"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:background=""-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_gravity="right"-->
+        <!--            android:src="@drawable/star" />-->
+        <TextView
+            android:id="@+id/item_agency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="한국산업인력공단"/>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+</LinearLayout>

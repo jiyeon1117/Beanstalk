@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Beanstalk</string>
+
+    <string name="text_email">email</string>
+    <string name="text_password">password</string>
+
+    <string name="text_loginKR">로그인</string>
+    <string name="text_SignUpKR">회원가입</string>
+    <string name="text_FindIdKR">아이디 찾기</string>
+
+    <string name="pressName">이름을 입력하세요.</string>
+    <string name="pressEmail">이메일을 입력하세요.</string>
+    <string name="pressPassword">비밀번호를 입력하세요.</string>
+    <string name="confirmPassword">비밀번호 확인</string>
+
+    <string name="btn1">건설기계운전</string>
+    <string name="btn2">건설배관</string>
+    <string name="btn3">건축</string>
+    <string name="btn4">경영</string>
+
+    <string name="btn5">금속.재료</string>
+    <string name="btn6">금형.공작기계</string>
+    <string name="btn7">기계장비설비.설치</string>
+    <string name="btn8">기계제작</string>
+
+    <string name="btn9">농업</string>
+    <string name="btn10">단조.주조</string>
+    <string name="btn11">도시.교통</string>
+    <string name="btn12">도장.도금</string>
+
+    <string name="btn13">디자인</string>
+    <string name="btn14">목재.가구.공예</string>
+    <string name="btn15">방송</string>
+    <string name="btn16">방송.무선</string>
+
+    <string name="btn17">보건.의료</string>
+    <string name="btn18">비파괴검사</string>
+    <string name="btn19">사무</string>
+    <string name="btn20">사회복지.종교</string>
+
+    <string name="btn21">생산관리</string>
+    <string name="btn22">섬유</string>
+    <string name="btn23">숙박.여행.오락.스포츠</string>
+    <string name="btn24">식품</string>
+
+    <string name="btn25">안전관리</string>
+    <string name="btn26">어업</string>
+    <string name="btn27">에너지.기상</string>
+    <string name="btn28">영업.판매</string>
+
+    <string name="btn29">용접</string>
+    <string name="btn30">운전.운송</string>
+    <string name="btn31">위험물</string>
+    <string name="btn32">의복</string>
+
+
+    <string name="btn33">이용.미용</string>
+    <string name="btn34">인쇄.사진</string>
+    <string name="btn35">임업</string>
+    <string name="btn36">자동차</string>
+
+    <string name="btn37">전기</string>
+    <string name="btn38">전자</string>
+    <string name="btn39">정보기술</string>
+    <string name="btn40">제과제빵</string>
+
+    <string name="btn41">조경</string>
+    <string name="btn42">조리</string>
+    <string name="btn43">조선</string>
+    <string name="btn44">채광</string>
+
+    <string name="btn45">철도</string>
+    <string name="btn46">축산</string>
+    <string name="btn47">토목</string>
+    <string name="btn48">통신</string>
+
+    <string name="btn49">판금.제관.새시</string>
+    <string name="btn50">항공</string>
+    <string name="btn51">화공</string>
+    <string name="btn52">환경</string>
+
+</resources>
