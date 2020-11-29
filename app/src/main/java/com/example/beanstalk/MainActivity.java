@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             Intent intent = new Intent(MainActivity.this, Fragment1Activity.class);
                             startActivity(intent);
-                            Toast.makeText(MainActivity.this, "로그인 되셨습니다.", Toast.LENGTH_SHORT).show();
                         }else{
                             Toast.makeText(MainActivity.this, "로그인 오류", Toast.LENGTH_SHORT).show();
                         }

@@ -5,20 +5,67 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <CalendarView
-        android:id="@+id/calendar"
+    <SearchView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
-        android:focusedMonthDateColor="#9acc99"
-        android:maxDate="12/31/2023"
-        android:minDate="01/01/2020"
-        android:selectedWeekBackgroundColor="#9acc99"
-        android:showWeekNumber="false"
-        android:unfocusedMonthDateColor="#9acc99"
-        android:weekSeparatorLineColor="#9acc99" />
+        android:visibility="visible"
+        android:layout_marginTop="10dp"/>
+
+    <!--    선-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#9acc99"/>
+
+    <!--    메뉴버튼    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_menu1"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="자격증"/>
+        <Button
+            android:id="@+id/btn_menu2"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="컴퓨터 자격증"/>
+        <Button
+            android:id="@+id/btn_menu3"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="캘린더"/>
+        <Button
+            android:id="@+id/btn_menu4"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="내정보"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#9acc99"/>
+
+    <ListView
+        android:id="@+id/com_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
 
-<!--달력-->
+<!--컴퓨터자격증-->
