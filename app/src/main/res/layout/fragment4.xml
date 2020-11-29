@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"/>
+
+    <!--    선-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#9acc99"/>
+
+    <!--    메뉴버튼    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_menu1"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="자격증"/>
+        <Button
+            android:id="@+id/btn_menu2"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="컴퓨터 자격증"/>
+        <Button
+            android:id="@+id/btn_menu3"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="캘린더"/>
+        <Button
+            android:id="@+id/btn_menu4"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:textSize="15sp"
+            android:text="내정보"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#9acc99"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내정보"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="#ffffff"
+        android:stateListAnimator="@null"
+        android:text="계정"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:stateListAnimator="@null"
+        android:text="개인정보 및 보안"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:stateListAnimator="@null"
+        android:text="알림"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:stateListAnimator="@null"
+        android:text="서비스 소개"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:background="#9acc99"
+        android:stateListAnimator="@null"
+        android:text="로그아웃" />
+
+</LinearLayout>
