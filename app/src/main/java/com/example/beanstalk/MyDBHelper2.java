@@ -117,16 +117,9 @@ public class MyDBHelper2 extends SQLiteOpenHelper {
 
         sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('위험물', '위험물기능사', '소방청', '한국산업인력공단', 14500, 17200)");
         sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('위험물', '위험물기능장', '소방청', '한국산업인력공단', 34400, 24800)");
-        sqLiteDatabase.execSQL("");
-        sqLiteDatabase.execSQL("");
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('위험물', '위험물산업기사', '소방청', '한국산업인력공단', 19400, 20800)");
 
-
-
-
-
-
-        INSERT INTO Certificate VALUES ('위험물', '위험물산업기사', '소방청', '한국산업인력공단', 19400, 20800)
-
+        
         INSERT INTO Certificate VALUES ("의복", "패션디자인산업기사", "고용노동부", "한국산업인력공단", 19400, 48900);
         INSERT INTO Certificate VALUES ("의복", "패션머천다이징산업기사", "산업통상자원부", "한국산업인력공단", 19400, 30000);
         INSERT INTO Certificate VALUES ("의복", "한복산업기사", "고용노동부", "한국산업인력공단", 19400, 49100);
