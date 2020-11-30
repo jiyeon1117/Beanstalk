@@ -108,20 +108,24 @@ public class MyDBHelper2 extends SQLiteOpenHelper {
 
         sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('영업.판매', '텔레마케팅관리사', '고용노동부', '한국산업인력공단', 19400, 20800)");
 
-        sqLiteDatabase.execSQL("");
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('용접', '용접기능사', '고용노동부', '한국산업인력공단', 14500, 40000)");
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('용접', '용접기술사', '과학기술정보통신부', '한국산업인력공단', 67800, 87100)");
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('용접', '특수용접기능사', '고용노동부', '한국산업인력공단', 14500, 49500)");
+
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('운전.운송', '농기계운전기능사', '농촌진흥청', '한국산업인력공단', 14500, 23500)");
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('운전.운송', '철도운송산업기사', '국토교통부', '한국산업인력공단', 19400, 25000)");
+
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('위험물', '위험물기능사', '소방청', '한국산업인력공단', 14500, 17200)");
+        sqLiteDatabase.execSQL("INSERT INTO Certificate VALUES ('위험물', '위험물기능장', '소방청', '한국산업인력공단', 34400, 24800)");
         sqLiteDatabase.execSQL("");
         sqLiteDatabase.execSQL("");
 
-        INSERT INTO Certificate VALUES ('용접', '용접기능사', '고용노동부', '한국산업인력공단', 14500, 40000)
-        INSERT INTO Certificate VALUES ('용접', '용접기술사', '과학기술정보통신부', '한국산업인력공단', 67800, 87100)
-        INSERT INTO Certificate VALUES ('용접', '특수용접기능사', '고용노동부', '한국산업인력공단', 14500, 49500)
 
-        INSERT INTO Certificate VALUES ('운전.운송', '농기계운전기능사', '농촌진흥청', '한국산업인력공단', 14500, 23500)
-        INSERT INTO Certificate VALUES ('운전.운송', '철도운송산업기사', '국토교통부', '한국산업인력공단', 19400, 25000)
 
-        INSERT INTO Certificate VALUES ("위험물", "위험물기능사", "소방청", "한국산업인력공단", 14500, 17200);
-        INSERT INTO Certificate VALUES ("위험물", "위험물기능장", "소방청", "한국산업인력공단", 34400, 24800);
-        INSERT INTO Certificate VALUES ("위험물", "위험물산업기사", "소방청", "한국산업인력공단", 19400, 20800);
+
+
+
+        INSERT INTO Certificate VALUES ('위험물', '위험물산업기사', '소방청', '한국산업인력공단', 19400, 20800)
 
         INSERT INTO Certificate VALUES ("의복", "패션디자인산업기사", "고용노동부", "한국산업인력공단", 19400, 48900);
         INSERT INTO Certificate VALUES ("의복", "패션머천다이징산업기사", "산업통상자원부", "한국산업인력공단", 19400, 30000);
